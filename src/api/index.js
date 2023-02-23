@@ -11,7 +11,7 @@ const getPostsData = () =>
     url: '/posts',
   });
 
-const getCommentsByIdData = (id) =>
+const getCommentsById = (id) =>
   instance({
     method: 'GET',
     url: `/posts/${id}/comments`,
@@ -23,7 +23,7 @@ const getUsersData = () =>
     url: '/users',
   });
 
-const getuserByIdData = (id) =>
+const getuserById = (id) =>
   instance({
     method: 'GET',
     url: `/users/${id}`,
@@ -31,9 +31,9 @@ const getuserByIdData = (id) =>
 
 const calls = {
   getPostsData,
-  getCommentsByIdData,
+  getCommentsById,
   getUsersData,
-  getuserByIdData,
+  getuserById,
 };
 
 export default calls;
