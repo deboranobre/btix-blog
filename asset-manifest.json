@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/btix-blog/static/js/main.86367c08.js",
+    "main.js": "/btix-blog/static/js/main.f8fd7245.js",
     "static/media/header-bg.webp": "/btix-blog/static/media/header-bg.3abdad10c66af91f7073.webp",
     "static/media/Quicksand-Regular.ttf": "/btix-blog/static/media/Quicksand-Regular.04b11c8f0d4d58c1bed1.ttf",
     "static/media/Quicksand-Bold.ttf": "/btix-blog/static/media/Quicksand-Bold.a0a11318dd0b528da77d.ttf",
@@ -9,9 +9,9 @@
     "static/media/email-icon.svg": "/btix-blog/static/media/email-icon.ba8e2d3aba75df664bae85df183da8b8.svg",
     "static/media/user-icon.svg": "/btix-blog/static/media/user-icon.38eae0ec53da9df81806d82b144412db.svg",
     "index.html": "/btix-blog/index.html",
-    "main.86367c08.js.map": "/btix-blog/static/js/main.86367c08.js.map"
+    "main.f8fd7245.js.map": "/btix-blog/static/js/main.f8fd7245.js.map"
   },
   "entrypoints": [
-    "static/js/main.86367c08.js"
+    "static/js/main.f8fd7245.js"
   ]
 }
