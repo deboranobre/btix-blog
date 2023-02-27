@@ -35,7 +35,7 @@ const DetailsInfo = styled.div`
   display: flex;
   font-size: 14px;
   margin-top: 10px;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 
   div {
     margin-left: 15px;
@@ -51,7 +51,6 @@ const User = () => {
       .getuserById(id)
       .then((response) => {
         const { data } = response;
-        console.log(user);
         setUser(data);
       })
       .catch((error) => {
