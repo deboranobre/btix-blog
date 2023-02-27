@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import { GlobalStyles } from './lib/global-styles';
 import Comments from './pages/Comments';
@@ -10,12 +10,14 @@ const App = () => {
   return (
     <div className="app">
       <GlobalStyles />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/post/:id" element={<Comments />} />
-        <Route path="/usuarios" element={<Users />} />
-        <Route path="/usuario/:id" element={<User />} />
-      </Routes>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/post/:id" element={<Comments />} />
+          <Route path="/usuarios" element={<Users />} />
+          <Route path="/usuario/:id" element={<User />} />
+        </Routes>
+      </HashRouter>
     </div>
   );
 };
