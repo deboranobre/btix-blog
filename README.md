@@ -2,6 +2,8 @@
 
 Para rodar o projeto localmente execute o comando:
 
+### `npm install`
+
 ### `npm start`
 
 Executa o ambiente de desenvolvimento (development mode)
