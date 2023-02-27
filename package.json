@@ -1,7 +1,7 @@
 {
   "name": "btix-blog",
   "version": "0.1.0",
-  "homepage": "https://deboranobre.github.io/btix-blog/#",
+  "homepage": "https://deboranobre.github.io/btix-blog",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
