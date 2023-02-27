@@ -45,7 +45,7 @@ const Header = () => {
     <HeaderContent>
       <ContentWrapper>
         <HeaderWrapper>
-          <a className="logo" href="https://www.btix.app/">
+          <a className="logo" href="/">
             BTIX
           </a>
           <Link to="/usuarios">Usuarios</Link>

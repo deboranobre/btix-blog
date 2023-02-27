@@ -38,7 +38,6 @@ const Comments = () => {
       .getCommentsById(id)
       .then((response) => {
         const { data } = response;
-        console.log(data);
         setComments(data);
       })
       .catch((error) => {
