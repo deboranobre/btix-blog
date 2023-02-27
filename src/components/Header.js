@@ -45,10 +45,12 @@ const Header = () => {
     <HeaderContent>
       <ContentWrapper>
         <HeaderWrapper>
-          <a className="logo" href="/">
+          <a id="logo" className="logo" href="/">
             BTIX
           </a>
-          <Link to="/usuarios">Usuarios</Link>
+          <Link id="users-link" to="/usuarios">
+            Usuarios
+          </Link>
         </HeaderWrapper>
       </ContentWrapper>
     </HeaderContent>

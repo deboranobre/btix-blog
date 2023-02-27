@@ -22,7 +22,7 @@ const UsersList = styled.ul`
     width: 20%;
     border-left: 5px solid ${colors.primary};
     border-radius: 10px;
-    height: 100px;
+    height: 120px;
     margin-bottom: 30px;
     padding: 15px;
     box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
@@ -64,7 +64,7 @@ const Users = () => {
         <UsersList>
           {users.map((user, key) => (
             <li key={key}>
-              <Link to={`/usuario/${user.id}`}>
+              <Link className="user-link" to={`/usuario/${user.id}`}>
                 <h2>{user.name}</h2>
                 <h3>
                   <span>Username: </span>

@@ -44,7 +44,9 @@ const Home = () => {
             <li key={key}>
               <PostTitle>{post.title}</PostTitle>
               <p>{post.body}</p>
-              <Link to={`/post/${post.id}`}>Comentários</Link>
+              <Link className="comments-link" to={`/post/${post.id}`}>
+                Comentários
+              </Link>
             </li>
           ))}
         </PostsList>

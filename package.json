@@ -1,6 +1,7 @@
 {
   "name": "btix-blog",
   "version": "0.1.0",
+  "homepage": "https://deboranobre.github.io/btix-blog/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +47,8 @@
     "@babel/preset-env": "^7.20.2",
     "axios-mock-adapter": "^1.21.2",
     "babel-jest": "^29.4.3",
+    "cypress": "^12.7.0",
+    "gh-pages": "^5.0.0",
     "jest-mock-axios": "^4.7.0-beta4"
   },
   "jest": {

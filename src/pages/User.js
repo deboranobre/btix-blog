@@ -12,7 +12,7 @@ const UserInfo = styled.div`
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
-  margin: 30px 0;
+  margin: 30px 10px;
   width: 50%;
 
   @media ${device.mobile} {
